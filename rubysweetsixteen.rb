@@ -14,3 +14,13 @@ get '/' do
   @quote = quotes[rand(quotes.size)]
   haml :index
 end
+
+get '/all' do
+  @quotes = quotes
+  haml :all
+end
+
+get '/:num' do
+  @quote = quotes[params[:num].to_i]
+  haml :index
+end
