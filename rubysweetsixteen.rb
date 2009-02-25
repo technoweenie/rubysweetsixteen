@@ -12,16 +12,3 @@ get '/' do
   @quote = quotes[rand(quotes.size)]
   haml :index
 end
-
-__END__
-
-@@ layout
-%html
-  %head
-    %title Ruby just turned 16!
-  %body{:style => "background:#a00"}
-    = yield
-
-@@ index
-%h1{:style => "color:#fff; font-family:Georga; font-size:72px;"}
-  = @quote
