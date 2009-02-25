@@ -5,7 +5,9 @@ quotes = [
   'Ruby snuck a few beers from the fridge',
   'Ruby threw a house party while Matz was away for vacation',
   'Ruby snuck into a rated R movie',
-  'Ruby slept around and got selector namespaces'
+  'Ruby slept around and got selector namespaces',
+  'Ruby gave $5 to David Black to buy it some cigarettes',
+  'Ruby hit a growth spurt last summer'
   ]
 
 get '/' do
